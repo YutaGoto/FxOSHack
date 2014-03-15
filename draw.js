@@ -1,7 +1,10 @@
 // alert(event.screenX);
 // alert("hello");
 $(function(){
-	$("html").click(function(){
-		this.style.backgroundColor = "yellow";
+	$("html").click(function(e){
+		var element=document.getElementById("id");
+		element.style.position='absolute';
+		element.style.left=e.clientX-10+'px';
+		element.style.top=e.clientY-10+'px';
 	});
 });
