@@ -1,5 +1,5 @@
-iframe{
-	width: 100%;
-	height: 100%;
-	margin: 0;
+html{
+	/*background-color: #aaaaaa;*/
+	/*background-image: url("image/screen.png");*/
+	background-size: 100%;
 }
