@@ -1,6 +1,6 @@
 {
 	"version": "1",
-	"name": "",
+	"name": "催促",
 	"launch_path": "/index.html",
 	"description": "Boilerplate Firefox OS app with example use cases to get started",
 	"developer": {
