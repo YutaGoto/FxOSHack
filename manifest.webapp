@@ -1,0 +1,28 @@
+{
+	"version": "1",
+	"name": "Firefox OS Boilerplate App",
+	"launch_path": "/index.html",
+	"description": "Boilerplate Firefox OS app with example use cases to get started",
+	"developer": {
+		"name": "Yuta Goto",
+		"url": "http://gggooottto.tumblr.com/"
+	},
+	"installs_allowed_from":[
+		"*"
+	],
+	"default_locale": "en",
+	"permissions": {
+	    "desktop-notification": {
+	    	"description": "To show notifications"
+    	},
+    	"geolocation": {
+      		"description": "Marking out user location"
+	    }
+	},
+	"locales":{
+		"ja":{
+			"name": "Practice",
+			"description": "practice"
+		}
+	}
+}
